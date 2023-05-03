@@ -105,7 +105,7 @@ int main() {
     
     tcp_address.sin_family = AF_INET;
     tcp_address.sin_addr.s_addr = htonl(INADDR_ANY);
-    tcp_address.sin_port = htons(4400); 
+    tcp_address.sin_port = htons(6401); 
     if (bind(tcp_socket, (struct sockaddr*)&tcp_address, sizeof(tcp_address)) < 0) {
         std::cerr << "Error binding TCP socket." << std::endl;
         exit(EXIT_FAILURE);
