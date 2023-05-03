@@ -12,9 +12,10 @@ FEATURES
 5. Login-SignUp
 6. Login request every 30mins
 
-#Prerequisities
+Prerequisities
 
 1.Importing Libraries
+
 2.C++ compiler
 
 Execution.
