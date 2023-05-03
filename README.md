@@ -1,4 +1,5 @@
 OBJECTIVE
+
 You will create a client and a server application for this project that allows client-to-client communication but not server-to-client communication. The server application will only be used to exchange contact details for clients who are currently active.
 
 Clients can connect to the server, log in with a password, and view the list of clients who are currently active. Any active client can be selected as the connection point, and the remote client will be prompted to accept the new connection. Once a connection has been established successfully, clients can communicate with one another independently of the server. Additionally, a client can ask the server to send a message to every client in its database by making a broadcast request. The broadcast message should be received by all clients who will be active within 30 minutes.
